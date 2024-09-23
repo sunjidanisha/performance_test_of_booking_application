@@ -17,41 +17,36 @@ This project demonstrates Performance testing using JMeter, providing a collecti
 ### **Prerequisite:**
 - Node Js
 - JMeter
--  Html Report Library
+- Java JRE or JDK Installation (Requires Java 8+)
 
 ### **Installation**
 
-1. JMeter: If you haven't already, [download and install (https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz)]
-2. Clone the repository:
+1. JMeter: If you haven't already, [download JDK file (https://www.oracle.com/tr/java/technologies/javase-downloads.html))]
+2. Download: latest release of JMeter (Binaries -> zip extension) and unzip file.
  ```console 
-  git clone https://github.com/ebrahimhossaincse/Automated-Testing-of-Rest-Booking-API-with-Newman-Report.git
+[(https://jmeter.apache.org/)]
 ```
-3. Import the Postman collection:
+3. collection:
     - Open Postman.
     - Click on the Import button.
     - Select the file from the repository.
 4. Import the Postman environment:
     - In Postman, click on the gear icon in the top right corner.
     - Select **Import** and choose the file.
-5. Newman and Report Installation Process:
-    - Newman Install Command:
-     ```console 
-      npm install -g newman
-    ```
-    - Newman Html Report Install Command:
-     ```console 
-      npm install -g newman-reporter-htmlextra
-    ```
+5. JMeter  Installation Process:
+    -plugins-manager.jar and put it into JMeter's lib/ext directory, then restart JMeter.
+    - https://jmeter-plugins.org/install/Install/
+   
 ### **Usage**
 1. Select Environment:
-    -   In Postman, select the appropriate environment (e.g., Development, Production) from the top-right dropdown.
-3. Run Collection:
-    -   Select the imported collection from the Collections sidebar.
-    -   Click on the Runner button to open the collection runner.
-    -   Select the desired environment.
-    -   Click Start Test to run the collection.
+    -   Start bin/jmeter.sh on MacOS or bin/jmeter.bat file Windows OS.
+    -   Open PerformanceTestScenarios.jmx file from Jmeter GUI
+    -  Use Thread Group to set your virtual user load and test time
+    -   Select the desired listeners.
+    -   Start your test and view Test Results on listeners (View Results Tree, Aggregate Graph, ...)
+
 8. View Results:
-    -   Once the tests are complete, view the results in the Runner tab.
+    -   Once the tests are complete, view the results in the View Results tree
     -   Detailed test results can be viewed for each request.
 
 ## **Testing**
@@ -221,10 +216,5 @@ pm.environment.set("additionalneeds",additionalneeds)
 
 
 ## Newman Report Summary:
-![1](https://github.com/sunjidanisha/Automated-Testing-of-Rest-Booking-API-with-Newman-Report/assets/78694676/e56b9032-6653-4d78-817d-3be03053bf51)
-![2](https://github.com/sunjidanisha/Automated-Testing-of-Rest-Booking-API-with-Newman-Report/assets/78694676/2a8b27c9-e291-4799-b70a-ca3c15e3c269)
-![3](https://github.com/sunjidanisha/Automated-Testing-of-Rest-Booking-API-with-Newman-Report/assets/78694676/baa2a550-6527-43b4-8b4e-2bdba6d39035)
-![4](https://github.com/sunjidanisha/Automated-Testing-of-Rest-Booking-API-with-Newman-Report/assets/78694676/8d13c74d-7d99-4323-abe1-e9176640ef5d)
-![5](https://github.com/sunjidanisha/Automated-Testing-of-Rest-Booking-API-with-Newman-Report/assets/78694676/21cce5a3-d974-4518-9487-37b72979a794)
-
+![1]
 
