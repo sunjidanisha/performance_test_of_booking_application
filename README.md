@@ -1,29 +1,27 @@
-### **Rest Booking API Testing with Postman Newman**
-This project demonstrates API testing using Postman, providing a collection of tests to validate various endpoints of the API. 
+### **Rest Booking Performance Testing with JMeter**
+This project demonstrates Performance testing using JMeter, providing a collection of tests to validate various endpoints of the Performance. 
 
 ### **Features**
 
 - Tests for GET, POST, PUT, DELETE requests
-- Collection of tests covering different API endpoints
+- Collection of tests covering different tests
 - Environment setup for easy switching between environments
 - Pre-request scripts for data setup
 - Test scripts for assertions and validations
 
-## API Documentation:
-- https://documenter.getpostman.com/view/33497181/2sA35EZNDy
   
 ### **Technology used:**
-- Postman
-- Newman
+- JMeter
+
 
 ### **Prerequisite:**
 - Node Js
-- Newman
-- Newman Html Report Library
+- JMeter
+-  Html Report Library
 
 ### **Installation**
 
-1. Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
+1. JMeter: If you haven't already, [download and install (https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz)]
 2. Clone the repository:
  ```console 
   git clone https://github.com/ebrahimhossaincse/Automated-Testing-of-Rest-Booking-API-with-Newman-Report.git
